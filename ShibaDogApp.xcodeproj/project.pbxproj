@@ -11,6 +11,9 @@
 		8BC2A9AF29D9CA6700156A07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC2A9AE29D9CA6700156A07 /* ContentView.swift */; };
 		8BC2A9B129D9CA6800156A07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC2A9B029D9CA6800156A07 /* Assets.xcassets */; };
 		8BC2A9B429D9CA6800156A07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC2A9B329D9CA6800156A07 /* Preview Assets.xcassets */; };
+		8BC2A9BD29D9CAB400156A07 /* ShibaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC2A9BC29D9CAB400156A07 /* ShibaData.swift */; };
+		8BC2A9BF29D9CADB00156A07 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC2A9BE29D9CADB00156A07 /* APIClient.swift */; };
+		8BC2A9C129D9CBC900156A07 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC2A9C029D9CBC900156A07 /* APIError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		8BC2A9AE29D9CA6700156A07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8BC2A9B029D9CA6800156A07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BC2A9B329D9CA6800156A07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8BC2A9BC29D9CAB400156A07 /* ShibaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShibaData.swift; sourceTree = "<group>"; };
+		8BC2A9BE29D9CADB00156A07 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		8BC2A9C029D9CBC900156A07 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				8BC2A9AC29D9CA6700156A07 /* ShibaDogAppApp.swift */,
 				8BC2A9AE29D9CA6700156A07 /* ContentView.swift */,
+				8BC2A9BE29D9CADB00156A07 /* APIClient.swift */,
+				8BC2A9BC29D9CAB400156A07 /* ShibaData.swift */,
+				8BC2A9C029D9CBC900156A07 /* APIError.swift */,
 				8BC2A9B029D9CA6800156A07 /* Assets.xcassets */,
 				8BC2A9B229D9CA6800156A07 /* Preview Content */,
 			);
@@ -139,6 +148,9 @@
 			files = (
 				8BC2A9AF29D9CA6700156A07 /* ContentView.swift in Sources */,
 				8BC2A9AD29D9CA6700156A07 /* ShibaDogAppApp.swift in Sources */,
+				8BC2A9BF29D9CADB00156A07 /* APIClient.swift in Sources */,
+				8BC2A9BD29D9CAB400156A07 /* ShibaData.swift in Sources */,
+				8BC2A9C129D9CBC900156A07 /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

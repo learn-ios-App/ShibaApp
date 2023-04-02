@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var viewModel = ShibaData()
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        List {
+            ForEach(0..<viewModel.dogImages.count, id:  \.self) { index in
+                AsyncImage(url: viewModel.dogImages[index]) { image in
+                    image
+                        .resizable()
+                        .scaledToFit()
+                } placeholder: {
+                    ProgressView()
+                }
+            }
         }
-        .padding()
+        .onAppear(perform: viewModel.onApper)
     }
 }
 
